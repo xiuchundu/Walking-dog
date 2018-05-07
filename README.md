@@ -59,9 +59,11 @@
 	let canvas = document.querySelector("#dog-walking");
 	let dogAnimation = new DogAnimation(canvas);
 	dogAnimation.start();
+```
 	
-	把狗的图片放到dogPictures数组里面，在loadResources里面进行加载，如下代码所示：
-	
+把狗的图片放到dogPictures数组里面，在loadResources里面进行加载，如下代码所示：
+
+```js	
 	// 加载图片
 	loadResources() {
 	    let imagesPath = []; 
